@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink to="/">홈</RouterLink>
         <!-- TODO -->
-        <RouterLink to="/linds">링크</RouterLink>
+        <RouterLink to="/links">링크</RouterLink>
         <RouterLink to="/data">자료</RouterLink>
         <!-- 미구현 -->
         <a href="https://skrewbar.github.io">블로그</a>
