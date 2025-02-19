@@ -19,13 +19,21 @@ function copyEmail() {
       <h1 class="section-title">링크</h1>
       <div role="button" class="link-container" @click="copyEmail">
         <div class="link email">
-          <img src="../assets/images/at-sign.svg" /> <span class="link-name">이메일</span
-          ><span class="link-id">skurua1244@gmail.com</span><img src="../assets/images/copy.svg" />
+          <img src="../assets/images/at-sign.svg" />
+          <span class="link-name">이메일</span><span class="link-id">skurua1244@gmail.com</span>
+          <img src="../assets/images/copy.svg" />
         </div>
-        <a class="link github" href="https://github.com/skrewbar"
-          ><img src="../assets/images/github-mark.svg" /> <span class="link-name">GitHub</span
-          ><span class="link-id">skrewbar</span><img src="../assets/images/link.svg"
-        /></a>
+        <a class="link github" href="https://github.com/skrewbar">
+          <img src="../assets/images/github-mark.svg" />
+          <span class="link-name">GitHub</span><span class="link-id">skrewbar</span>
+          <img src="../assets/images/link.svg" />
+        </a>
+        <a class="link solvedac" href="https://solved.ac/skuru">
+          <img src="https://static.solved.ac/logo.svg" />
+          <span class="link-name">solved.ac</span>
+          <span class="link-id">skuru</span>
+          <img src="../assets/images/link.svg" />
+        </a>
       </div>
     </section>
     <section>
@@ -84,13 +92,16 @@ function copyEmail() {
 
 @media (hover: hover) {
   .link.email:hover {
-    background-color: rgb(213, 255, 216);
+    background-color: rgb(255, 233, 233);
   }
   .link.github:hover {
     background-color: rgb(207, 207, 207);
   }
+  .link.solvedac:hover {
+    background-color: rgb(178, 255, 192);
+  }
   .link.instagram:hover {
-    background-color: rgb(255, 237, 237);
+    background-color: #ffabd1;
   }
 }
 </style>
