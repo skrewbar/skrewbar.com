@@ -15,7 +15,7 @@ function copyEmail() {
 
 <template>
   <main>
-    <h1 class="title">링크</h1>
+    <h1 class="section-title">링크</h1>
     <div role="button" class="link-container" @click="copyEmail">
       <div class="link email">
         <img src="../assets/images/at-sign.svg" /> <span class="link-name">이메일</span
@@ -26,7 +26,7 @@ function copyEmail() {
         ><span class="link-id">skrewbar</span><img src="../assets/images/link.svg"
       /></a>
     </div>
-    <h1 class="title">SNS</h1>
+    <h1 class="section-title">SNS</h1>
     <div class="link-container">
       <a class="link instagram" href="https://www.instagram.com/skrew_bar/">
         <img src="../assets/images/instagram.svg" />
