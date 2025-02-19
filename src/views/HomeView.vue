@@ -16,8 +16,8 @@
     <section id="mailplugin">
       <h1 class="section-title">메일 플러그인</h1>
       <figure>
-        <img src="../assets/images/sendmail_screenshot.png" width="50%" />
-        <img src="../assets/images/receivemail_screenshot.png" width="50%" />
+        <img class="screenshot" src="../assets/images/sendmail_screenshot.png" width="50%" />
+        <img class="screenshot" src="../assets/images/receivemail_screenshot.png" width="50%" />
         <figcaption>메일 플러그인</figcaption>
       </figure>
       <p>제가 처음으로 완성한 프로젝트입니다.</p>
@@ -73,12 +73,14 @@ figcaption {
 }
 
 iframe {
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 40vw;
+
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.media {
-  min-width: 10rem;
-  min-height: 10rem;
+img.screenshot {
+  min-width: 300px;
 }
 </style>
