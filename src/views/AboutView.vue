@@ -57,7 +57,7 @@
 
 <style>
 .icon {
-  width: 3rem;
+  height: 3rem;
   margin: 0.5rem;
 }
 
