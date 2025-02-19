@@ -6,13 +6,13 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">홈</RouterLink>
-        <RouterLink to="/links">링크</RouterLink>
+        <RouterLink to="/"><span>홈</span></RouterLink>
+        <RouterLink to="/links"><span>링크</span></RouterLink>
         <!-- TODO -->
-        <RouterLink to="/data">자료</RouterLink>
+        <RouterLink to="/data"><span>자료</span></RouterLink>
         <!-- 미구현 -->
-        <a href="https://skrewbar.github.io">블로그</a>
-        <RouterLink to="/about">About</RouterLink>
+        <a href="https://skrewbar.github.io"><span>블로그</span></a>
+        <RouterLink to="/about"><span>About</span></RouterLink>
       </nav>
     </div>
   </header>
@@ -30,7 +30,6 @@ nav {
   display: flex;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 
   width: 100%;
   height: 10vh;
@@ -43,7 +42,8 @@ nav a.router-link-exact-active {
 }
 
 nav a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 0 1rem;
   font-size: 24px;
   flex-grow: 1;
