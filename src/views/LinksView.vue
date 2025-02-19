@@ -29,7 +29,7 @@ function copyEmail() {
       </div>
     </section>
     <section>
-      <h1 class="section-title">SNS</h1>
+      <h1 class="section-title">SNS (안함)</h1>
       <div class="link-container">
         <a class="link instagram" href="https://www.instagram.com/skrew_bar/">
           <img src="../assets/images/instagram.svg" />
