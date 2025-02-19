@@ -39,7 +39,6 @@ function copyEmail() {
 
 <style scoped>
 .link-container {
-  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
 }
