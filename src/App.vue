@@ -51,7 +51,6 @@ nav a {
   text-decoration: none;
   color: rgb(136, 136, 136);
   transition: 0.4s;
-  /* padding: 3px; */
 }
 
 @media (hover: hover) {

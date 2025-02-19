@@ -3,12 +3,26 @@
 #app {
   /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
   font-weight: normal;
-  width: 100vw;
+  width: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
+
+  width: 100vw;
+
+  color: black;
+}
+
+@media (min-width: 1000px) {
+  body {
+    padding: 0 10vw;
+  }
+}
+
+h1.title {
+  font-weight: bold;
 }
