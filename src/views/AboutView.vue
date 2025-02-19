@@ -35,22 +35,22 @@
     </section>
     <section id="solvedac">
       <h1 class="section-title">solved.ac</h1>
-      <a href="https://solved.ac/skuru" rel="nofollow"
-        ><img
-          src="https://camo.githubusercontent.com/1fd82ffa032e27837f60864c5ad1ae5fb93217f283f17baf030b95d8cf27c671/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d736b757275"
-          alt="solved.ac 프로필"
-          data-canonical-src="http://mazassumnida.wtf/api/v2/generate_badge?boj=skuru"
-          style="max-width: 100%" /></a
-      ><a
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://camo.githubusercontent.com/672d67ca0b32cf200ad220e04138f3a0c2c9fa7f87e346734ed6a6923773e06a/687474703a2f2f6d617a616e64692e6865726f6b756170702e636f6d2f6170693f68616e646c653d736b757275267468656d653d7761726d"
-        ><img
+      <div id="solvedac">
+        <a href="https://solved.ac/skuru" rel="nofollow">
+          <img
+            src="https://camo.githubusercontent.com/1fd82ffa032e27837f60864c5ad1ae5fb93217f283f17baf030b95d8cf27c671/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d736b757275"
+            alt="solved.ac 프로필"
+            data-canonical-src="http://mazassumnida.wtf/api/v2/generate_badge?boj=skuru"
+            style="max-width: 100%"
+          />
+        </a>
+        <img
           src="https://camo.githubusercontent.com/672d67ca0b32cf200ad220e04138f3a0c2c9fa7f87e346734ed6a6923773e06a/687474703a2f2f6d617a616e64692e6865726f6b756170702e636f6d2f6170693f68616e646c653d736b757275267468656d653d7761726d"
           alt="mazandi profile"
           data-canonical-src="http://mazandi.herokuapp.com/api?handle=skuru&amp;theme=warm"
           style="max-width: 100%"
-      /></a>
+        />
+      </div>
     </section>
   </main>
 </template>
@@ -64,7 +64,9 @@
 a {
   padding: 0.5rem;
 }
-a:nth-child(2){
-  padding-left: 0;
+
+div#solvedac {
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>
