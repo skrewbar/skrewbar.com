@@ -15,25 +15,29 @@ function copyEmail() {
 
 <template>
   <main>
-    <h1 class="section-title">링크</h1>
-    <div role="button" class="link-container" @click="copyEmail">
-      <div class="link email">
-        <img src="../assets/images/at-sign.svg" /> <span class="link-name">이메일</span
-        ><span class="link-id">skurua1244@gmail.com</span><img src="../assets/images/copy.svg" />
+    <section>
+      <h1 class="section-title">링크</h1>
+      <div role="button" class="link-container" @click="copyEmail">
+        <div class="link email">
+          <img src="../assets/images/at-sign.svg" /> <span class="link-name">이메일</span
+          ><span class="link-id">skurua1244@gmail.com</span><img src="../assets/images/copy.svg" />
+        </div>
+        <a class="link github" href="https://github.com/skrewbar"
+          ><img src="../assets/images/github-mark.svg" /> <span class="link-name">GitHub</span
+          ><span class="link-id">skrewbar</span><img src="../assets/images/link.svg"
+        /></a>
       </div>
-      <a class="link github" href="https://github.com/skrewbar"
-        ><img src="../assets/images/github-mark.svg" /> <span class="link-name">GitHub</span
-        ><span class="link-id">skrewbar</span><img src="../assets/images/link.svg"
-      /></a>
-    </div>
-    <h1 class="section-title">SNS</h1>
-    <div class="link-container">
-      <a class="link instagram" href="https://www.instagram.com/skrew_bar/">
-        <img src="../assets/images/instagram.svg" />
-        <span class="link-name">Instagram</span><span class="link-id">skrew_bar</span
-        ><img src="../assets/images/link.svg"
-      /></a>
-    </div>
+    </section>
+    <section>
+      <h1 class="section-title">SNS</h1>
+      <div class="link-container">
+        <a class="link instagram" href="https://www.instagram.com/skrew_bar/">
+          <img src="../assets/images/instagram.svg" />
+          <span class="link-name">Instagram</span><span class="link-id">skrew_bar</span
+          ><img src="../assets/images/link.svg"
+        /></a>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -47,12 +51,12 @@ function copyEmail() {
   cursor: pointer;
 
   border: 2px black solid;
-  border-radius: 10px;
+  border-radius: 1rem;
 
   height: 4rem;
   width: 100%;
 
-  margin: 5px 0;
+  margin: 0.5rem 0;
 
   align-items: center;
   display: flex;
@@ -60,7 +64,7 @@ function copyEmail() {
   text-decoration: none;
 
   color: black;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   transition: 0.4s;
 }
