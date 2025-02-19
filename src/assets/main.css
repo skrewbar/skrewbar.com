@@ -24,7 +24,7 @@ body {
     padding: 0 10vw;
   }
   html {
-    font-size: 2vw;
+    font-size: max(1.5vw, 8px);
   }
 }
 
