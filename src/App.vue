@@ -53,15 +53,7 @@ nav a {
 
 @media (hover: hover) {
   a:hover {
-    color: rgb(0, 0, 0);
+    color: var(--color-text);
   }
-}
-
-#sunmoon {
-  position: fixed;
-  bottom: 3vh;
-  right: 1vw;
-
-  border-radius: 50%;
 }
 </style>
