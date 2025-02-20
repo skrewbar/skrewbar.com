@@ -2,18 +2,18 @@
 
 <template>
   <main>
-    <img src="../assets/images/profile.PNG" />
+    <img src="../assets/images/profile.png" />
     <h1>프로필 사진</h1>
-    <a href="../assets/images/profile.PNG" download="profile.PNG">
+    <a href="../assets/images/profile.png" download="profile.png">
       <img class="download" src="../assets/images/download.svg" alt="download" />
       <span>다운로드</span>
     </a>
 
     <hr />
 
-    <img src="../assets/images/legacyprofile.JPG" />
+    <img src="../assets/images/legacyprofile.jpg" />
     <h1>구 프로필 사진</h1>
-    <a href="../assets/images/legacyprofile.JPG" download="legacyprofile.JPG">
+    <a href="../assets/images/legacyprofile.jpg" download="legacyprofile.jpg">
       <img class="download" src="../assets/images/download.svg" alt="download" />
       <span>다운로드</span>
     </a>
