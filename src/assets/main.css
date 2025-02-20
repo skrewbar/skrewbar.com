@@ -15,8 +15,6 @@ body {
 
   width: 100vw;
 
-  color: black;
-
   padding: 0 20vw;
 }
 
@@ -45,7 +43,7 @@ section {
 
 a {
   text-decoration: none;
-  color: rgb(155, 155, 155);
+  color: var(--color-text-secondary)
 }
 a:hover {
   text-decoration: underline;

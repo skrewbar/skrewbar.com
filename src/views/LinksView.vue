@@ -3,8 +3,12 @@ import CopyLink from '@/components/CopyLink.vue'
 import ExternalLink from '@/components/ExternalLink.vue'
 
 import gitHubIcon from '@/assets/images/github-mark.svg'
+import gitHubWhiteIcon from '@/assets/images/github-mark-white.svg'
 import instagramIcon from '@/assets/images/instagram.svg'
 import atSignIcon from '@/assets/images/at-sign.svg'
+
+const isLightTheme: boolean =
+  window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
 </script>
 
 <template>
@@ -20,9 +24,19 @@ import atSignIcon from '@/assets/images/at-sign.svg'
           background-color="rgb(255, 233, 233)"
         />
         <ExternalLink
+          v-if="isLightTheme"
           color="black"
           link-adress="https://github.com/skrewbar"
           :link-img="gitHubIcon"
+          link-name="GitHub"
+          link-id="skrewbar"
+          background-color="rgb(207, 207, 207)"
+        />
+        <ExternalLink
+          v-else
+          color="white"
+          link-adress="https://github.com/skrewbar"
+          :link-img="gitHubWhiteIcon"
           link-name="GitHub"
           link-id="skrewbar"
           background-color="rgb(207, 207, 207)"

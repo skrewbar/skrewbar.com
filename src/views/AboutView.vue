@@ -43,11 +43,6 @@
       <img class="icon" src="https://cdn.worldvectorlogo.com/logos/papermc.svg" alt="papermc" />
       <img
         class="icon"
-        src="https://static.djangoproject.com/img/logos/django-logo-positive.svg"
-        alt="django"
-      />
-      <img
-        class="icon"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
         alt="vue.js"
       />

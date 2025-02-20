@@ -36,7 +36,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--vt-c-black);
+  color: var(--color-text);
 }
 
 nav a {
@@ -47,7 +47,7 @@ nav a {
   flex-grow: 1;
 
   text-decoration: none;
-  color: rgb(136, 136, 136);
+  color: var(--color-text-secondary);
   transition: 0.4s;
 }
 
