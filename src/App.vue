@@ -4,13 +4,13 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-      <nav>
-        <RouterLink to="/"><span>홈</span></RouterLink>
-        <RouterLink to="/links"><span>링크</span></RouterLink>
-        <RouterLink to="/data"><span>자료</span></RouterLink>
-        <a href="https://blog.skrewbar.com"><span>블로그</span></a>
-        <RouterLink to="/about"><span>About</span></RouterLink>
-      </nav>
+    <nav>
+      <RouterLink to="/"><span>홈</span></RouterLink>
+      <RouterLink to="/links"><span>링크</span></RouterLink>
+      <RouterLink to="/data"><span>자료</span></RouterLink>
+      <a href="https://blog.skrewbar.com"><span>블로그</span></a>
+      <RouterLink to="/about"><span>About</span></RouterLink>
+    </nav>
   </header>
 
   <RouterView />

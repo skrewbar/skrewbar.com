@@ -38,6 +38,6 @@ a {
 hr {
   margin: 2rem 0;
   border-style: dashed;
-  color: #9b9b9b
+  color: #9b9b9b;
 }
 </style>
