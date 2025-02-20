@@ -41,7 +41,7 @@ nav a {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   flex-grow: 1;
 
   text-decoration: none;
