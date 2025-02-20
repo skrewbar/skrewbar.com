@@ -1,11 +1,18 @@
 <script setup lang="ts">
-defineProps<{
-  linkAdress: string
-  linkImg?: string
-  linkName: string
-  linkId: string
-  backgroundColor: string
-}>()
+withDefaults(
+  defineProps<{
+    color?: string
+    linkAdress: string
+    linkImg?: string
+    linkName: string
+    linkId: string
+    backgroundColor?: string
+  }>(),
+  {
+    color: 'black',
+    backgroundColor: 'gray',
+  },
+)
 </script>
 
 <template>
@@ -21,7 +28,7 @@ defineProps<{
 .link {
   cursor: pointer;
 
-  border: 2px black solid;
+  border: 2px v-bind(color) solid;
   border-radius: 1rem;
 
   height: 4rem;
@@ -35,7 +42,7 @@ defineProps<{
 
   text-decoration: none;
 
-  color: black;
+  color: v-bind(color);
   font-size: 1.5rem;
 
   transition: 0.4s;

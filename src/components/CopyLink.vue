@@ -2,12 +2,19 @@
 import { toast } from 'vue3-toastify'
 import 'vue3-toastify/dist/index.css'
 
-const props = defineProps<{
-  linkImg?: string
-  linkName: string
-  linkId: string
-  backgroundColor: string
-}>()
+const props = withDefaults(
+  defineProps<{
+    color?: string
+    linkImg?: string
+    linkName: string
+    linkId: string
+    backgroundColor?: string
+  }>(),
+  {
+    color: 'black',
+    backgroundColor: 'gray',
+  },
+)
 
 function copyEmail() {
   navigator.clipboard.writeText(props.linkId)
@@ -33,7 +40,7 @@ function copyEmail() {
 .link {
   cursor: pointer;
 
-  border: 2px black solid;
+  border: 2px v-bind(color) solid;
   border-radius: 1rem;
 
   height: 4rem;
@@ -47,7 +54,7 @@ function copyEmail() {
 
   text-decoration: none;
 
-  color: black;
+  color: v-bind(color);
   font-size: 1.5rem;
 
   transition: 0.4s;
