@@ -32,6 +32,25 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
         alt="javascript"
       />
+      <img
+        class="icon"
+        src="https://static-00.iconduck.com/assets.00/typescript-icon-icon-2048x2048-2rhh1z66.png"
+        alt="typescript"
+      />
+    </section>
+    <section id="programming-tools">
+      <h1 class="section-title">API / 라이브러리 / 프레임워크</h1>
+      <img class="icon" src="https://cdn.worldvectorlogo.com/logos/papermc.svg" alt="papermc" />
+      <img
+        class="icon"
+        src="https://static.djangoproject.com/img/logos/django-logo-positive.svg"
+        alt="django"
+      />
+      <img
+        class="icon"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
+        alt="vue.js"
+      />
     </section>
     <section id="solvedac">
       <h1 class="section-title">solved.ac</h1>
