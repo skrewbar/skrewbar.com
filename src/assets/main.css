@@ -9,6 +9,7 @@
 }
 
 body {
+  word-break: keep-all;
   display: flex;
   flex-direction: column;
 
@@ -22,7 +23,6 @@ body {
 @media (max-width: 1280px) {
   body {
     padding: 0 10vw;
-    word-break: keep-all;
   }
   html {
     font-size: max(1.5vw, 8px);
