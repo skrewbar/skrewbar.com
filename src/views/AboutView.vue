@@ -51,18 +51,20 @@
       <h1 class="section-title">solved.ac</h1>
       <div id="solvedac">
         <a href="https://solved.ac/skuru" rel="nofollow">
-          <img
-            src="https://camo.githubusercontent.com/1fd82ffa032e27837f60864c5ad1ae5fb93217f283f17baf030b95d8cf27c671/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d736b757275"
+          <!-- <img
+            src="https://camo.githubusercontent.com/d50073608c703a3a8d7bb216442268f3e07105b966e0f15421e81bbc888ce9da/68747470733a2f2f6769746875622d726561646d652d736f6c76656461632e6879703372666c6f772e76657263656c2e6170702f6170692f3f68616e646c653d736b757275"
             alt="solved.ac 프로필"
-            data-canonical-src="http://mazassumnida.wtf/api/v2/generate_badge?boj=skuru"
+            data-canonical-src="https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=skuru"
             style="max-width: 100%"
+          /> -->
+          <img
+            src="https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=skuru"
+            alt="solved.ac 프로필"
           />
         </a>
         <img
-          src="https://camo.githubusercontent.com/672d67ca0b32cf200ad220e04138f3a0c2c9fa7f87e346734ed6a6923773e06a/687474703a2f2f6d617a616e64692e6865726f6b756170702e636f6d2f6170693f68616e646c653d736b757275267468656d653d7761726d"
-          alt="mazandi profile"
-          data-canonical-src="http://mazandi.herokuapp.com/api?handle=skuru&amp;theme=warm"
-          style="max-width: 100%"
+          src="http://mazandi.herokuapp.com/api?handle=skuru&amp;theme=warm"
+          alt="solved.ac 잔디"
         />
       </div>
     </section>
