@@ -34,7 +34,7 @@
       />
       <img
         class="icon"
-        src="https://static-00.iconduck.com/assets.00/typescript-icon-icon-2048x2048-2rhh1z66.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1024px-Typescript.svg.png"
         alt="typescript"
       />
     </section>
