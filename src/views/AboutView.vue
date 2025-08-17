@@ -47,6 +47,12 @@
         alt="vue.js"
       />
     </section>
+    <section id="award">
+      <h1 class="section-title">수상 경력</h1>
+      <ul>
+        <li>제 42회 2025 한국정보올림피아드 2차대회 전체부문 동상 (29th)</li>
+      </ul>
+    </section>
     <section id="solvedac">
       <h1 class="section-title">solved.ac</h1>
       <div id="solvedac">
@@ -84,5 +90,9 @@ a {
 div#solvedac {
   display: flex;
   flex-wrap: wrap;
+}
+
+li {
+  font-size: 1.5em;
 }
 </style>
