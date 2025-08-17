@@ -9,20 +9,7 @@
     <section id="ps">
       <h1 class="section-title">Problem Solving</h1>
       <p>프로그래밍으로 해결할 수 있는 다양한 문제들을 해결합니다.</p>
-      <img
-        src="../assets/images/solvedprofile-screenshot.png"
-        alt="solved profile"
-        class="screenshot"
-      />
-      <img
-        src="../assets/images/bronze5-allsolve.png"
-        alt="bronze 5 all solve"
-        class="screenshot"
-      />
-      <figure>
-        <figcaption>2025년 2월 19일 기준</figcaption>
-        <p>BOJ에 등록된 문제 중 911문제를 해결했고, 존재하는 모든 Bronze V 문제를 해결했습니다.</p>
-      </figure>
+      <img src="../assets/images/solvedac-profile.png" alt="solved profile" class="screenshot" />
     </section>
 
     <h1 class="section-title">마인크래프트/희망 서버</h1>
