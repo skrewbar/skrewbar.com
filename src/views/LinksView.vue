@@ -52,7 +52,7 @@ const isLightTheme: boolean =
       </div>
     </section>
     <section>
-      <h1 class="section-title">SNS (안함)</h1>
+      <h1 class="section-title">SNS</h1>
       <div class="link-container">
         <ExternalLink
           color="#FF68AE"
