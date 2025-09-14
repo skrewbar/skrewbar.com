@@ -51,7 +51,7 @@
       <h1 class="section-title">수상 경력</h1>
       <ul>
         <li>제 42회 2025 한국정보올림피아드 2차대회 전체부문 동상 (29th)</li>
-        <li>2025 K-EDU 창의력 경진대회 최우수상</li>
+        <li>2025 K-EDU 창의력 경진대회 고등대학부 최우수상</li>
       </ul>
     </section>
     <section id="solvedac">
